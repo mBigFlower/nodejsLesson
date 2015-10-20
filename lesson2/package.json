@@ -1,0 +1,22 @@
+{
+  "name": "bigflower",
+  "version": "1.0.0",
+  "description": "this is my first time to use npm_init",
+  "main": "Nodejs",
+  "scripts": {
+    "test": "bigflower"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "bigflower",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "utility": "^1.4.0"
+  }
+}
