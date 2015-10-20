@@ -22,7 +22,7 @@ app.get('/', function (req, res, next) {
 	      var $element = $(element);
 	      var href = url.resolve(cnodeUrl, $element.attr('href'));
 	      // idx是index，类似for循环中的i
-	      // 不需要太多的数据，这里只要5组，40跟5其实一样的
+	      // 不需要太多的数据，这里只要15组，40跟5其实一样的
 	      if(idx < 15)
 	      	topicUrls.push(href);
 	    });
